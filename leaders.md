@@ -1,4 +1,2 @@
 ### Leaders
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
+* [Amitai Cohen](mailto:amitai.cohen@wiz.io)

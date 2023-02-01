@@ -2,21 +2,20 @@
 
 layout: col-sidebar
 title: OWASP Cloud Tenant Isolation
-tags: example-tag
+tags: builders defenders
 level: 2
-type: 
-pitch: A very brief, one-line description of your project
+type: documentation
+pitch: A guide for mitigating cross-tenant vulnerabilities in cloud application development
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+## Overview
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+Cross-tenant vulnerabilities are a new type of security risk that is characteristic of cloud-based applications. Such bugs can enable malicious tenants to break security boundaries, escape tenant isolation and access other tenants' data. The goal of this project is to create highly practical guidance for cloud developers to manage the risk of isolation escape by ensuring proper implementation of strong security boundaries, and thereby mitigate potential cross-tenant vulnerabilities in their SaaS/PaaS applications.
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+## Description
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
-
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
-
-type: code, tool, documentation, or other
+The goals of this project:
+1. Create a list of common security mistakes in PaaS and SaaS solutions which could enable cross-tenant vulnerabilities, such as misconfigured containers, overly permissive firewall rules, lack of data hygiene, etc.
+2. Write best practices specific to each major cloud provider (AWS, Azure and GCP) to help developers avoid making such mistakes in their application architecture.
+3. Develop example architecture diagrams and Terraform files representing secure applications which implement strong mitigations against cross-tenant vulnerabilities.

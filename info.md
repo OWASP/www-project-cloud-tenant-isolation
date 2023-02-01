@@ -1,17 +1,4 @@
-### Cloud Tenant Isolation Information
-* [Incubator Project](#)
-* [Type of Project](#)
-* [Version 0.0.0](#)
-* [Builder](#)
-* [Breaker](#)
-
-### Downloads or Social Links
-* [Download](#)
-* [Meetup](#)
-
-### Code Repository
-* [repo](#)
-
-### Change Log
-* [changes](#)
-
+### Project Information
+* <i class="fas fa-egg" style="color:#233e81;"></i> Incubator Project
+* <i class="fas fa-toolbox" style="color:#233e81;"></i> Builders
+* <i class="fas fa-shield-alt" style="color:#233e81;"></i> Defenders

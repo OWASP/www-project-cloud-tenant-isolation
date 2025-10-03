@@ -1,0 +1,22 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Amitai Cohen
+    email: amitai.cohen@wiz.io
+    github: korniko98
+level: 2
+license:
+  - CC-BY-4.0
+name: OWASP Cloud Tenant Isolation
+pitch: A guide for mitigating cross-tenant vulnerabilities in cloud application development
+repositories:
+  - name: www-project-cloud-tenant-isolation
+    url: https://github.com/OWASP/www-project-cloud-tenant-isolation
+    description: OWASP Foundation Web Repository
+tags:
+  - builders
+  - defenders
+  - custom-tag-1
+type: documentation
+website: https://owasp.org/www-project-cloud-tenant-isolation
